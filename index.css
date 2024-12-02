@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Botao {
+    background-color: #ffe600;
+    height: 60px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-family: "Rammetto One";
+  }
+  
+  .cabecalho {
+    background-color: #00057d;
+  }
+  
+  .navegacao {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px 80px;
+  }
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b6bfff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(0, 3, 62);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dog{
+    width: 800px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #639fe3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .menu {
+    width: 40px;
+  }
+  .sessao {
+    background-color: #2228c9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+  }
+  h4{
+    font-family:Rammetto One;
+    color: rgb(255, 255, 255);
+    
+  }
+  .sessao2{
+    background-color: #f8df04;
+    padding: 50px;
+  }
+h2{
+    font-family: Arimo;
+    font-size: 20px;
+}
+h3{
+    font-family:Rammetto One;
+    color: rgb(255, 255, 255);
+    
+}
+.imagem{
+    width: 100%;
+}
+.roda-pe {
+    background-color: #000241;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  h1 {
+    font-size: 15px;
+    font-family: "Rammetto One";
+    color: #fffdf1;
+  }
+h5{
+    font-family: Arimo;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 600px;
+}
