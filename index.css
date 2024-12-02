@@ -29,7 +29,13 @@
   .logo {
     width: 80px;
   }
-  
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
   .dropdown-content {
     display: none;
     position: absolute;
